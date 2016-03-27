@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void showLocation(final Location location) {
-        /*new Thread(new Runnable() {
+        new Thread(new Runnable() {
             @Override
             public void run() {
                 try{
@@ -125,9 +125,9 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-        }).start();*/
-        String currentPosition = "latitude is " + location.getLatitude() + "\n" + "longitude is " + location.getLongitude();
-        positionTextView.setText(currentPosition);
+        }).start();
+        /*String currentPosition = "latitude is " + location.getLatitude() + "\n" + "longitude is " + location.getLongitude();
+        positionTextView.setText(currentPosition);*/
     }
 
 
